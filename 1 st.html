@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css"> 
+			div {
+			  width: 100px;
+			  height: 100px;
+			  background-color: red;
+			  position:relative;
+			  animation-name:Demo;
+			  animation-duration:10s;
+			  animation-iteration-count:infinite;
+			 }
+             <div class="exampleone">
+  
+</div>
+
+<div class="exampletwo">
+
+</div>
+
+<div class="examplethree">
+  Lorem ipsum dolor sit amet, consectetuer
+</div>
+
+
+.exampleone { background-color: transparent; }
+
+.exampletwo {
+  background-color: rgb(238, 0, 238);
+  color: rgb(255, 255, 0);
+}
+
+.examplethree {
+  background-color: #0000ff;
+  color: #ff0000;
+}
+
+	
+			@keyframes Demo{
+				0%{background-color:red; left:0px; top:0px;transform:rotate(0deg);}
+				25%{background-color:yellow; left:200px; top:0px;transform:rotate(90deg);}
+				50%{background-color:blue; left:200px; top:200px;transform:rotate(180deg);}
+				75%{background-color:rgb(241, 2, 74); left:0px; top:200px;transform:rotate(270deg);}
+				100%{background-color:rgb(45, 192, 0); left:0px; top:0px;transform:rotate(360deg);}
+		</style>
+	</head>
+	<body>
+
+		<div></div>
+	</body>
+</html>
